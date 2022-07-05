@@ -60,10 +60,6 @@ function AppRoutes({ onLogin }) {
   );
 }
 
-export function SomofficeRouter({ children }) {
-  return <BrowserRouter>{children}</BrowserRouter>;
-}
-
 function Home() {
   return (
     <h1 style={{ color: "steelblue", fontFamily: "sans-serif" }}>

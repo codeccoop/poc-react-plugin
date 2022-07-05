@@ -1,15 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 import "./index.css";
 
-import SomofficeShell, { SomofficeRouter } from "poc-react-plugin";
+import SomofficeShell from "poc-react-plugin";
 
 function App() {
   return (
-    <SomofficeRouter>
+    <Router>
       <SomofficeShell />
-    </SomofficeRouter>
+    </Router>
   );
 }
 

@@ -8,6 +8,8 @@ import {
   useHistory,
 } from "react-router-dom";
 
+import { initKeycloak } from "./keycloak.js";
+
 import "core-js";
 import "regenerator-runtime";
 
@@ -92,6 +94,10 @@ export function SomofficeShell() {
       history.push("/");
     }
   }, [isLogged]);
+
+  useEffect(() => {
+    initKeycloak().then(onLogin);
+  }, []);
 
   return (
     <>

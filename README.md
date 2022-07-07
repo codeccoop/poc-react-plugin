@@ -16,3 +16,7 @@ Compile with `npm run build`
 | :point_up:    | El plugin ha d'haver sigut compilat abans d'aixecar el consumer perqupe aquest pugui funcionar |
 |---------------|:-----------------------------------------------------------------------------------------------|
 
+## Keycloak
+Start the server with `docker-cli start`
+
+Haurem de configurar el servidor creant un *realm* al qual anomenarem 'somoffice', hi registrarem un usuari i crearem una entrada de client que li direm 'somoffice-shell' i el vincularem a la *root URL* `http://localhost:4000` on s'aixecarà el nostre servidor de desenvolupament de webpack. 

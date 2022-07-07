@@ -13,5 +13,6 @@ Initialize with `npm install`
 Develop with `npm start`
 Compile with `npm run build`
 
-    <span style="color: red;">El plugin ha d'haver sigut compilat abans d'aixecar el consumer perquè aquest funcioni</span>
+| :point_up:    | El plugin ha d'haver sigut compilat abans d'aixecar el consumer perqupe aquest pugui funcionar |
+|---------------|:-----------------------------------------------------------------------------------------------|
 

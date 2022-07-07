@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import SomofficeShell from "./main.js";
+import SomofficeShell from "./index.js";
 
 function App() {
   return (
